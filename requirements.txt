@@ -1,0 +1,28 @@
+# Framework principal
+chainlit>=0.7.700
+langchain>=0.0.300
+
+# Providers LLM
+anthropic>=0.8.0
+openai>=1.6.0
+mistralai>=0.0.7
+
+# Utilitaires
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+fastapi>=0.104.1
+uvicorn>=0.24.0
+
+# Traitement des fichiers
+pypdf>=3.17.0
+pillow>=10.1.0
+pandas>=2.1.2
+numpy>=1.26.0
+
+# Tests
+pytest>=7.4.3
+
+# Exportation
+jinja2>=3.1.2
+markdown>=3.5.1

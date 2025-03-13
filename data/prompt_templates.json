@@ -1,0 +1,62 @@
+[
+  {
+    "id": "default-system",
+    "name": "Message système par défaut",
+    "description": "Message système standard pour initialiser une conversation",
+    "content": "",
+    "category": "système",
+    "system_message": "Tu es un assistant IA utile, respectueux et honnête. Réponds toujours au mieux de tes capacités en te basant sur les instructions et le contexte fournis.",
+    "metadata": {
+      "default": true
+    }
+  },
+  {
+    "id": "code-python",
+    "name": "Développement Python",
+    "description": "Template pour le développement d'applications Python",
+    "content": "Je travaille sur un projet Python et j'ai besoin d'aide pour {tâche}. \n\nContexte: {contexte}\n\nObjectif: {objectif}\n\nMerci de me fournir du code clair, bien commenté et suivant les bonnes pratiques.",
+    "category": "développement",
+    "system_message": "Tu es un expert en développement Python. Fournis des solutions efficaces, robustes et bien documentées. Privilégie la lisibilité et les bonnes pratiques. Explique toujours ton raisonnement et les choix techniques effectués.",
+    "metadata": {
+      "language": "python"
+    }
+  },
+  {
+    "id": "data-analysis",
+    "name": "Analyse de données",
+    "description": "Template pour l'analyse de données et la data science",
+    "content": "J'ai un ensemble de données concernant {sujet} et je voudrais {objectif}.\n\nDétails des données: {détails}\n\nQuestions spécifiques: {questions}",
+    "category": "data science",
+    "system_message": "Tu es un data scientist expérimenté. Aide l'utilisateur à analyser ses données en proposant des méthodes appropriées, en expliquant les concepts statistiques pertinents et en suggérant des visualisations efficaces.",
+    "metadata": {
+      "domain": "data science"
+    }
+  },
+  {
+    "id": "file-analysis",
+    "name": "Analyse de fichier",
+    "description": "Template pour l'analyse de fichiers uploadés",
+    "content": "Voici un fichier que j'aimerais que tu analyses. Peux-tu me fournir un résumé de son contenu et répondre à ces questions spécifiques:\n\n1. {question1}\n2. {question2}\n3. {question3}",
+    "category": "analyse",
+    "system_message": "Tu es un expert en analyse de documents. Examine attentivement le fichier fourni et réponds aux questions de l'utilisateur de manière précise et détaillée.",
+    "metadata": {
+      "file_types": [
+        "txt",
+        "csv",
+        "json",
+        "pdf"
+      ]
+    }
+  },
+  {
+    "id": "agent-conversation",
+    "name": "Conversation entre agents",
+    "description": "Template pour faire discuter plusieurs LLMs ensemble",
+    "content": "Je souhaite que tu joues le rôle de {rôle} dans cette conversation. Tu vas discuter avec d'autres agents IA sur le sujet suivant: {sujet}.\n\nTon objectif est de {objectif}.\n\nContexte: {contexte}",
+    "category": "agents",
+    "system_message": "Tu es un agent spécialisé qui va participer à une conversation multi-agents. Reste dans ton rôle défini et apporte ton expertise spécifique à la discussion. Sois constructif et collaboratif.",
+    "metadata": {
+      "agentic": true
+    }
+  }
+]

@@ -1,0 +1,15 @@
+services:
+  llm-hub:
+    build: .
+    container_name: llm-hub
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - PYTHONPATH=/app
+      - CHAINLIT_HOST=0.0.0.0
+      - CHAINLIT_PORT=8000
+    restart: unless-stopped
+    

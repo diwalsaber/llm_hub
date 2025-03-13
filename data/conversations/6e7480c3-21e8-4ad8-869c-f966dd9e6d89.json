@@ -1,0 +1,18 @@
+{
+  "id": "6e7480c3-21e8-4ad8-869c-f966dd9e6d89",
+  "title": "Nouvelle conversation 2025-03-13 14:45",
+  "messages": [
+    {
+      "id": "32a6cfb3-ca31-47f1-97eb-778dd6d7f49e",
+      "role": "system",
+      "content": "",
+      "timestamp": "2025-03-13T14:45:16.914934"
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-03-13T14:45:16.914217",
+    "updated_at": "2025-03-13T14:45:16.914940",
+    "providers_used": [],
+    "file_references": []
+  }
+}
