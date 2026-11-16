@@ -2,8 +2,6 @@
 
 LLM Hub est une interface unifiée permettant d'interagir avec différents modèles de langage (LLMs) comme Claude, ChatGPT, Mistral, et DeepSeek.
 
-![LLM Hub](https://via.placeholder.com/800x450.png?text=LLM+Hub+Interface)
-
 ## Caractéristiques
 
 - **Interface unifiée** pour plusieurs modèles de langage (Claude, ChatGPT, Mistral, DeepSeek)
@@ -29,8 +27,8 @@ LLM Hub est une interface unifiée permettant d'interagir avec différents modè
 
 1. Clonez le dépôt:
    ```bash
-   git clone https://github.com/votre-repo/llm-hub.git
-   cd llm-hub
+   git clone https://github.com/diwalsaber/llm_hub.git
+   cd llm_hub
    ```
 
 2. Créez un environnement virtuel:
@@ -59,8 +57,8 @@ LLM Hub est une interface unifiée permettant d'interagir avec différents modè
 
 1. Clonez le dépôt:
    ```bash
-   git clone https://github.com/votre-repo/llm-hub.git
-   cd llm-hub
+   git clone https://github.com/diwalsaber/llm_hub.git
+   cd llm_hub
    ```
 
 2. Copiez le fichier d'environnement exemple et configurez vos clés API:
@@ -144,13 +142,3 @@ Les contributions sont les bienvenues ! Voici comment vous pouvez contribuer:
 3. Committez vos changements (`git commit -m 'Add some amazing feature'`)
 4. Poussez sur la branche (`git push origin feature/amazing-feature`)
 5. Ouvrez une Pull Request
-
-## Licence
-
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
-
-## Contact
-
-Votre Nom - [@votre_twitter](https://twitter.com/votre_twitter) - email@example.com
-
-Lien du projet: [https://github.com/votre-repo/llm-hub](https://github.com/votre-repo/llm-hub)
